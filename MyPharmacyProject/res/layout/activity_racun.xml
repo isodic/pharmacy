@@ -7,17 +7,20 @@
               android:background="@drawable/main_gradient"
         >
 
-    <!--
+
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/username"
-            android:id="@+id/txtViewLogin"
-            android:layout_marginTop="100dp"
-            android:layout_gravity="center"/>
+            android:text="@string/name"
+            android:id="@+id/txtViewName_racun"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            />
 
     <EditText
+            android:id="@+id/editTxtName_racun"
             android:background="@drawable/edittextshape"
             android:layout_width="220dp"
             android:layout_height="wrap_content"
@@ -26,15 +29,16 @@
             android:textCursorDrawable="@null"
             android:textColor="#000000"/>
     <TextView
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/username"
-            android:id="@+id/txtViewLogin"
-            android:layout_marginTop="100dp"
+            android:text="@string/surname"
+            android:id="@+id/txtViewSurname"
             android:layout_gravity="center"/>
 
     <EditText
+            android:id="@+id/editTxtSurname_racun"
             android:background="@drawable/edittextshape"
             android:layout_width="220dp"
             android:layout_height="wrap_content"
@@ -43,20 +47,105 @@
             android:textCursorDrawable="@null"
             android:textColor="#000000"/>
     <TextView
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/username"
-            android:id="@+id/txtViewLogin"
-            android:layout_marginTop="100dp"
+            android:id="@+id/txtViewPassword"
             android:layout_gravity="center"/>
 
     <EditText
+            android:id="@+id/editTxtUsername_racun"
             android:background="@drawable/edittextshape"
             android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:textCursorDrawable="@null"
-            android:textColor="#000000"/> -->
+            android:textColor="#000000"/>
+
+    <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/password"
+            android:id="@+id/txtViewPassword"
+            android:layout_gravity="center"/>
+
+    <EditText
+
+            android:background="@drawable/edittextshape"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_margin="10dp"
+
+            android:id="@+id/editTextPassword_racun"
+            android:textCursorDrawable="@null"
+            android:textColor="#000000"/>
+
+    <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/password_confirm"
+            android:id="@+id/txtViewPassword_racun"
+            android:layout_gravity="center"/>
+
+    <EditText
+            android:background="@drawable/edittextshape"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editTextPasswordConfirm_racun"
+            android:textCursorDrawable="@null"
+            android:textColor="#000000"/>
+    <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/gender"
+            android:id="@+id/txtViewPassword_racun"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            />
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+            <CheckBox
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:text="Ženski"
+                    android:textSize="20dp"
+                    android:id="@+id/chkZensko_racun"
+                    android:singleLine="false"
+                    android:layout_gravity="right"
+                    android:shadowColor="#000000"
+                    />
+
+            <CheckBox
+                    android:layout_gravity="left"
+                    android:singleLine="false"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Muški"
+                    android:textSize="20dp"
+                    android:id="@+id/chkMusko_racun"
+                    />
+    </LinearLayout>
 </LinearLayout>

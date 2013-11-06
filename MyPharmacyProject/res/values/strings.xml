@@ -10,5 +10,15 @@
     <string name="menu_medicine_database">Baza lijekova</string>
     <string name="menu_disease_search">Pretraživanje bolesti</string>
     <string name="menu_natural_healing">Prirodni način liječenja</string>
-    <string name="menu_create_profile">Kreiraj profil</string><string name="username">Korisničko ime</string><string name="password">Lozinka</string>
+    <string name="menu_create_profile">Kreiraj profil</string>
+
+
+    <!-- Common strings -->
+    <string name="name">Ime</string>
+    <string name="surname">Prezime</string>
+    <string name="username">Korisničko ime</string>
+    <string name="password">Lozinka</string>
+    <string name="password_confirm">Potvrda lozinke</string>
+    <string name="gender">Spol</string>
+
 </resources>
