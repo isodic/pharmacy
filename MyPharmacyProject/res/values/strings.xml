@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Header strings  -->
+    <string name="app_name">MyPharmacy</string>
+    <string name="app_login">Prijava</string>
+    <string name="app_create_account">Izrada korisničkog računa</string>
+
+    <!-- Main Menu strings  -->
+    <string name="menu_login">Prijavi se</string>
+    <string name="menu_medicine_database">Baza lijekova</string>
+    <string name="menu_disease_search">Pretraživanje bolesti</string>
+    <string name="menu_natural_healing">Prirodni način liječenja</string>
+    <string name="menu_create_profile">Kreiraj profil</string><string name="username">Korisničko ime</string><string name="password">Lozinka</string>
+</resources>

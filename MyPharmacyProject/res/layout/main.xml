@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/main_gradient"
+        >
+
+    <Button
+            android:id="@+id/btnMedicineDatabase"
+            android:text="@string/menu_medicine_database"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/button_selector"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_gravity="center"
+            />
+
+    <Button
+            android:id="@+id/btnDiseaseSearch"
+            android:text="@string/menu_disease_search"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/button_selector"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_gravity="center"
+            />
+
+    <Button
+            android:id="@+id/btnNaturalHealing"
+            android:text="@string/menu_natural_healing"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/button_selector"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_gravity="center"
+            />
+
+    <Button
+            android:id="@+id/btnCreateProfile"
+            android:text="@string/menu_create_profile"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="130dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="7dp"
+            android:layout_height="45dp"
+            android:background="@drawable/button_selector"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_gravity="center"
+            />
+
+    <Button
+            android:id="@+id/btnLogin"
+            android:text="@string/menu_login"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/button_selector"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_gravity="center"
+            />
+</LinearLayout>
+
