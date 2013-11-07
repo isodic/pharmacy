@@ -23,6 +23,7 @@
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:textCursorDrawable="@null"
+            android:id="@+id/editTextUsername_Login"
             android:textColor="#000000"/>
 
     <TextView
@@ -30,7 +31,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/password"
-            android:id="@+id/txtViewPassword"
+            android:id="@+id/txtViewPassword_Login"
             android:layout_gravity="center"/>
 
     <EditText
@@ -40,9 +41,21 @@
             android:layout_gravity="center"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editTextPassword"
+            android:id="@+id/editTextPassword_Login"
             android:textCursorDrawable="@null"
             android:textColor="#000000"/>
+    <Button
+            android:id="@+id/btnResetPassword_Login"
+            android:text="@string/forgot_password"
+            android:textColor="#ff434343"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:layout_gravity="center"
+            />
 
     <Button
             android:id="@+id/btnLoginConfirm"
@@ -51,7 +64,7 @@
             android:textSize="20sp"
             android:layout_width="150dp"
             android:layout_height="55dp"
-            android:layout_margin="30dp"
+            android:layout_margin="10dp"
             android:background="@drawable/button_selector"
             android:shadowColor="#A8A8A8"
             android:shadowDx="0"
@@ -59,4 +72,5 @@
             android:shadowRadius="5"
             android:layout_gravity="center"
             />
+
 </LinearLayout>
