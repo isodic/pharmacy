@@ -23,5 +23,22 @@
     <string name="email">Email</string>
     <string name="forgot_password">Zaboravljena lozinka</string>
     <string name="user_ID">ID korisnika</string>
+    <string name="year">Godište</string>
 
+    <!-- Profile view -->
+    <string name="pillList">Popis lijekova</string>
+    <string name="pillName">Lijek X</string>
+    <string name="diseaseList">Popis bolesti</string>
+    <string name="diseaseName">Bolest X</string>
+    <string name="addPill">Dodaj lijek</string>
+    <string name="addDisease">Dodaj bolest</string>
+    <string name="reminder">PODSJETNIK</string>
+
+    <!-- Reminder strings -->
+    <string name="takeWithFood">Uzimanje uz obrok</string>
+    <string name="frequency">Učestalost</string>
+    <string name="day">Dnevno</string>
+    <string name="week">Tjedno</string>
+    <string name="month">Mjesečno</string>
+    <string name="numberTake">Broj uzimanja tableta po danu</string>
 </resources>

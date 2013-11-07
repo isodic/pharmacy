@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/main_gradient">
+
+    <LinearLayout
+            android:layout_height="150dp"
+            android:layout_width="fill_parent"
+            android:gravity="top">
+
+        <LinearLayout
+                android:layout_height="100dp"
+                android:layout_width="135dp"
+                android:weightSum="1.0"
+                android:id="@+id/layout1"
+                android:orientation="horizontal">
+
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/img_userpicture"
+                   <!-- android:src="@drawable/profile_icon" -->
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bordercolor"
+                    android:layout_marginRight="20dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="135dp"
+                android:weightSum="1.0"
+                android:id="@+id/layout2"
+                android:orientation="vertical"
+                >
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/username"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:id="@+id/txtViewProfile_username"/>
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/gender"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:id="@+id/txtViewProfile_gender"/>
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/year"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:id="@+id/txtViewProfile_year"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="-370dp">
+
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="@string/pillName"
+                android:id="@+id/profile_btnPillX"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/button_small"
+                android:textColor="@color/black"/>
+
+        <TextView
+                android:layout_height="30dp"
+                android:layout_width="fill_parent"
+                android:text="@string/pillList"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:id="@+id/txtViewProfile_pills"/>
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="@string/diseaseName"
+                android:id="@+id/profile_btnDisease"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/button_small"
+                android:textColor="@color/black"
+                />
+
+        <TextView
+                android:layout_height="30dp"
+                android:layout_width="fill_parent"
+                android:text="@string/diseaseList"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="90dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:id="@+id/txtViewProfile_disease"/>
+        <ImageButton
+                android:layout_height="40dp"
+                android:layout_width="60dp"
+                <!-- android:src="@drawable/buttonAdd" -->
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="-13dp"
+                android:layout_marginTop="180dp"
+                android:background=""
+                android:id="@+id/profile_btnAddPill"/>
+
+        <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="45dp"
+                android:text="@string/addPill"
+                android:layout_marginTop="190dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:id="@+id/txtViewProfile_addPill"/>
+
+        <ImageButton
+                android:layout_height="40dp"
+                android:layout_width="60dp"
+               <!-- android:src="@drawable/buttonAdd" -->
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="-13dp"
+                android:layout_marginTop="230dp"
+                android:background=""
+                android:id="@+id/profile_btnAddDisease"/>
+        <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:text="@string/addDisease"
+                android:layout_marginTop="240dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="45dp"
+                android:textSize="16dp"
+                android:id="@+id/txtViewProfile_addDisease"/>
+
+        <Button
+                android:id="@+id/profile_btnReminder"
+                android:text="@string/reminder"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_selector"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="290dp"
+                />
+    </RelativeLayout>
+
+</LinearLayout>
