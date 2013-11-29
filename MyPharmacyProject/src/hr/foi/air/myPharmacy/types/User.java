@@ -1,10 +1,19 @@
 package hr.foi.air.myPharmacy.types;
 
-
-/**
- * Created by stroj on 06.11.13..
+/*
+remarks -> AV
  */
 public class User {
+
+    public User(String ime,String prezime, int id,String username,String password, String email, String spol){
+        this.ime=ime;
+        this.prezime=prezime;
+        this.id=id;
+        this.username=username;
+        this.password=password;
+        this.email=email;
+        this.spol=spol;
+    }
     public String getUsername() {
         return username;
     }
@@ -53,10 +62,19 @@ public class User {
         this.email = email;
     }
 
+    public void setSpol(String spol) {
+        this.spol = spol;
+    }
+
+    public String getSpol() {
+        return spol;
+    }
+
     private String username;
     private int id;
     private String ime;
     private String prezime;
     private String email;
     private String password;
+    private String spol;
 }

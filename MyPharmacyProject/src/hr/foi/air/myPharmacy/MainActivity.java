@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main);
         final Context context=this;
 
-        //Login
+        //Users_Web_Service
         Button btnLogin=(Button)findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

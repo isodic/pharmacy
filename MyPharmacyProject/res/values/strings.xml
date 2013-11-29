@@ -2,8 +2,8 @@
 <resources>
     <!-- Header strings  -->
     <string name="app_name">MyPharmacy</string>
-    <string name="app_login">Prijava</string>
     <string name="app_create_account">Izrada korisničkog računa</string>
+    <string name="app_login">Prijava</string>
 
     <!-- Main Menu strings  -->
     <string name="menu_login">Prijavi se</string>
@@ -24,6 +24,8 @@
     <string name="forgot_password">Zaboravljena lozinka</string>
     <string name="user_ID">ID korisnika</string>
     <string name="year">Godište</string>
+    <string name="error">Pogreška!</string>
+
 
     <!-- Profile view -->
     <string name="pillList">Popis lijekova</string>
@@ -41,4 +43,22 @@
     <string name="week">Tjedno</string>
     <string name="month">Mjesečno</string>
     <string name="numberTake">Broj uzimanja tableta po danu</string>
+    <string name="setReminder">Postavi</string>
+    <string name="pillPick">Ime lijeka</string>
+
+    <!-- Register Login strings -->
+    <string name="usernameExists">Ovaj username vec postoji!</string>
+    <string name="registrationSuccessful">Uspješna registracija!</string>
+    <string name="usernameRequired">Username je obavezan</string>
+    <string name="usernameMinLength">Username mora imati najmanje 4 znaka</string>
+    <string name="passwordMinLength">Lozinka mora imati najmanje 6 znakova</string>
+    <string name="passwordMissmatch">Lozinke se ne podudaraju!</string>
+    <string name="emailRequired">Email je obavezan!</string>
+    <string name="emailFormatWrong">Krivi format E-maila!</string>
+    <string name="WrongLogin">Krivi podaci za prijavu!</string>
+    <string name="CorrectLogin">Uspješna prijava!</string>
+    <string name="register">Registracija</string>
+
+
+
 </resources>

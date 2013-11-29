@@ -9,11 +9,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import hr.foi.air.myPharmacy.interfaces.ILogin;
-import hr.foi.air.myPharmacy.plugins.UserData.Login;
+import hr.foi.air.myPharmacy.interfaces.IUsers;
+import hr.foi.air.myPharmacy.plugins.UserData.Users_Web_Service;
 
-/**
- * Created by stroj on 06.11.13..
+/*
+remarks ->AV
  */
 public class LoginActivity extends Activity {
 
@@ -24,11 +24,12 @@ public class LoginActivity extends Activity {
         final Context context=this;
 
         //Logiranje
-        Button btnLogin=(Button)findViewById(R.id.btnLoginConfirm);
-        btnLogin.setOnClickListener(new View.OnClickListener(){
+        Button btnRacun=(Button)findViewById(R.id.btnLoginConfirm);
+        btnRacun.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ILogin provjera=new Login();
+
+                IUsers provjera=new Users_Web_Service();
                 EditText editTextusername=(EditText)findViewById(R.id.editTextUsername_Login);
                 String username = editTextusername.getText().toString();
 
@@ -37,20 +38,19 @@ public class LoginActivity extends Activity {
                 Context context = getApplicationContext();
                 int duration = Toast.LENGTH_LONG;
 
-                if(provjera.checkLogin(username,password)==false){
-                    CharSequence text = "Krivi podaci za prijavu!";
+                if(provjera.checkLogin(username,password).getId()==0){
+                    CharSequence text = getString(R.string.WrongLogin);
                     Toast toast = Toast.makeText(context, text, duration);
                     toast.show();
-
                 }
                 else {
-                    CharSequence text = "Uspješna prijava!";
+                    CharSequence text = getString(R.string.CorrectLogin);
                     Toast toast = Toast.makeText(context, text, duration);
                     toast.show();
+                    Intent i=new Intent(context,ViewProfileActivity.class);
+                    startActivity(i);
                 }
             }
         });
     }
-
-
 }

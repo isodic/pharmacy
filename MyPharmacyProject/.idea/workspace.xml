@@ -89,24 +89,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/plugins/UserData/Login.java" line="28" class="hr.foi.air.myPharmacy.plugins.UserData.Login" package="hr.foi.air.myPharmacy.plugins.UserData">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -116,109 +100,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
+      <file leaf-file-name="Users_Web_Service.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/plugins/UserData/Users_Web_Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="45" selection-start="1028" selection-end="1028" vertical-scroll-proportion="-8.84" vertical-offset="204" max-vertical-offset="1377">
-              <folding>
-                <element signature="e#536#554#0" expanded="true" />
-                <element signature="e#1286#1304#0" expanded="true" />
-                <element signature="e#2364#2383#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="17" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="1054">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#784#1866#0" expanded="true" />
-                <element signature="e#1855#1856#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Looper.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Looper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Method.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/reflect/Method.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="18" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="1003">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/plugins/UserData/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="33" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1377">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="68" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_view_profile.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_view_profile.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.33333334" vertical-offset="281" max-vertical-offset="3145">
-              <folding>
-                <element signature="e#1797#1815#0" expanded="true" />
-                <element signature="e#2196#2212#0" expanded="true" />
-                <element signature="e#2590#2604#0" expanded="true" />
-                <element signature="e#3197#3215#0" expanded="true" />
-                <element signature="e#3681#3699#0" expanded="true" />
-                <element signature="e#4076#4097#0" expanded="true" />
-                <element signature="e#4583#4604#0" expanded="true" />
-                <element signature="e#5553#5570#0" expanded="true" />
-                <element signature="e#6378#6398#0" expanded="true" />
-                <element signature="e#6748#6766#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="39" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultHttpClient.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/org/apache/http/impl/client/DefaultHttpClient.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="11" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="867">
+            <state line="38" column="18" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0" vertical-offset="575" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
@@ -227,9 +112,90 @@
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/types/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1156">
+            <state line="5" column="13" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1462">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebServiceLinks.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/types/WebServiceLinks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RacunActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/RacunActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="0" selection-start="6487" selection-end="6487" vertical-scroll-proportion="0.81914896" vertical-offset="1884" max-vertical-offset="2448">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_racun.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_racun.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="187" column="43" selection-start="7268" selection-end="7268" vertical-scroll-proportion="-121.52" vertical-offset="141" max-vertical-offset="3332">
+              <folding>
+                <element signature="e#6844#6862#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceAsyncTaskUserCredentials.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/core/ServiceAsyncTaskUserCredentials.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="34" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="1853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUsers.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/interfaces/IUsers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="btndown.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/btndown.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_login.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="45" selection-start="688" selection-end="688" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="1360">
+              <folding>
+                <element signature="e#536#554#0" expanded="true" />
+                <element signature="e#2364#2383#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -250,22 +216,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/drawable/buttonshape_pressed.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/buttonshape_normal.xml" />
+        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/core/ServiceAsyncTaskUser.java" />
+        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/types/User.java" />
+        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/interfaces/IUsers.java" />
+        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/plugins/UserData/Users_Web_Service.java" />
+        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/LoginActivity.java" />
         <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/RacunActivity.java" />
-        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/core/ServiceAsyncTaskUserCredentials.java" />
+        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/types/WebServiceLinks.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_racun.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/drawable/edittextshape.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_racun.xml" />
-        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/types/User.java" />
-        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/plugins/UserData/UserLogin.java" />
-        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/interfaces/ILogin.java" />
+        <option value="$PROJECT_DIR$/res/drawable/button_small.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/buttonshape_normal.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/main_gradient.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/src/hr/foi/air/myPharmacy/plugins/UserData/Login.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_view_profile.xml" />
       </list>
     </option>
   </component>
@@ -418,6 +384,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPharmacy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPharmacy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPharmacyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -545,6 +533,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="240" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -556,6 +545,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="MyAvd0" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -566,15 +556,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable-xhdpi" />
-      <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable-mdpi" />
       <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable-hdpi" />
+      <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable-ldpi" />
+      <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable-mdpi" />
+      <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable-xhdpi" />
       <recent name="C:\Users\stroj\AndroidStudioProjects\MyPharmacyProject\res\drawable-hdpi" />
-      <recent name="C:\Users\stroj\AndroidStudioProjects\MyPharmacyProject\res\drawable-ldpi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable" />
+      <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable-mdpi" />
       <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable-hdpi" />
+      <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\layout" />
+      <recent name="C:\Users\stroj\Documents\GitHub\pharmacy\MyPharmacyProject\res\drawable" />
       <recent name="C:\Users\stroj\AndroidStudioProjects\MyPharmacyProject\res\drawable-xhdpi" />
     </key>
   </component>
@@ -808,32 +800,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.67270195" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32729805" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.82172704" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39275765" sideWeight="0.5727156" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17827298" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24388674" sideWeight="0.42777777" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32729805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14345405" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24903475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1924067" sideWeight="0.67270195" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1977716" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19176319" sideWeight="0.82172704" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17827298" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -898,38 +890,56 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/RacunActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="460" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/button_small.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/drawable/button_selector.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="477" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#619#838#0" expanded="false" />
-            <element signature="e#827#828#0" expanded="false" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/bordercolor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/buttonshape_normal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="28" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/main_gradient.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_racun.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="35" selection-start="7097" selection-end="7097" vertical-scroll-proportion="-13.52" vertical-offset="2756" max-vertical-offset="3383">
+        <state line="187" column="43" selection-start="7268" selection-end="7268" vertical-scroll-proportion="-121.52" vertical-offset="141" max-vertical-offset="3332">
           <folding>
-            <element signature="e#537#551#0" expanded="true" />
-            <element signature="e#937#951#0" expanded="true" />
-            <element signature="e#1729#1737#0" expanded="true" />
-            <element signature="e#2053#2088#0" expanded="true" />
-            <element signature="e#2474#2482#0" expanded="true" />
-            <element signature="e#3169#3177#0" expanded="true" />
-            <element signature="e#4124#4128#0" expanded="true" />
-            <element signature="e#6342#6368#0" expanded="true" />
+            <element signature="e#6844#6862#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -937,54 +947,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/interfaces/ILogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Looper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/reflect/Method.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="18" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/types/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1156">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/btndown.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="45" selection-start="1028" selection-end="1028" vertical-scroll-proportion="-8.84" vertical-offset="204" max-vertical-offset="1377">
+        <state line="16" column="45" selection-start="688" selection-end="688" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="1360">
           <folding>
             <element signature="e#536#554#0" expanded="true" />
-            <element signature="e#1286#1304#0" expanded="true" />
             <element signature="e#2364#2383#0" expanded="true" />
           </folding>
         </state>
@@ -993,66 +965,53 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/core/ServiceAsyncTaskUserCredentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="34" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/interfaces/IUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/plugins/UserData/Users_Web_Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="18" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0" vertical-offset="575" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/types/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/types/WebServiceLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="1054">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#784#1866#0" expanded="true" />
-            <element signature="e#1855#1856#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/org/apache/http/impl/client/DefaultHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="867">
+        <state line="17" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/plugins/UserData/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/foi/air/myPharmacy/RacunActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="33" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1377">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="68" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+        <state line="160" column="0" selection-start="6487" selection-end="6487" vertical-scroll-proportion="0.81914896" vertical-offset="1884" max-vertical-offset="2448">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_view_profile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.33333334" vertical-offset="281" max-vertical-offset="3145">
-          <folding>
-            <element signature="e#1797#1815#0" expanded="true" />
-            <element signature="e#2196#2212#0" expanded="true" />
-            <element signature="e#2590#2604#0" expanded="true" />
-            <element signature="e#3197#3215#0" expanded="true" />
-            <element signature="e#3681#3699#0" expanded="true" />
-            <element signature="e#4076#4097#0" expanded="true" />
-            <element signature="e#4583#4604#0" expanded="true" />
-            <element signature="e#5553#5570#0" expanded="true" />
-            <element signature="e#6378#6398#0" expanded="true" />
-            <element signature="e#6748#6766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>

@@ -72,5 +72,4 @@
             android:shadowRadius="5"
             android:layout_gravity="center"
             />
-
 </LinearLayout>

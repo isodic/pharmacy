@@ -109,6 +109,28 @@
             android:id="@+id/editTextPasswordConfirm_racun"
             android:textCursorDrawable="@null"
             android:textColor="#000000"/>
+
+    <TextView
+            android:layout_marginTop="3dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/email"
+            android:layout_gravity="center"/>
+
+    <EditText
+            android:background="@drawable/edittextshape"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/editTextEmail_racun"
+            android:textCursorDrawable="@null"
+            android:textColor="#000000"/>
     <TextView
             android:textColor="#000000"
             android:layout_width="wrap_content"
@@ -125,60 +147,35 @@
             android:clickable="true"
             android:focusable="true"
             android:orientation="horizontal" >
-            <CheckBox
-                    android:checked="true"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="80dp"
-                    android:layout_width="100dp"
-                    android:text="Ženski"
-                    android:textSize="20dp"
-                    android:id="@+id/chkZensko_racun"
-                    android:singleLine="false"
-                    android:textColor="#000000"
-                    android:background="@drawable/buttonshape_normal"
-                    android:layout_height="35dp"
-                    />
+        <CheckBox
+                android:checked="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="80dp"
+                android:layout_width="100dp"
+                android:text="Ženski"
+                android:textSize="20dp"
+                android:id="@+id/chkZensko_racun"
+                android:singleLine="false"
+                android:textColor="#000000"
+                android:background="@drawable/buttonshape_normal"
+                android:layout_height="35dp"
+                />
 
-            <CheckBox
-                    android:background="@drawable/buttonshape_normal"
-                    android:singleLine="false"
-                    android:layout_width="100dp"
-                    android:layout_height="35dp"
-                    android:text="Muški"
-                    android:textSize="20dp"
-                    android:layout_gravity="center"
-                    android:id="@+id/chkMusko_racun"
-                    android:textColor="#000000"
-
-                    />
-
-
+        <CheckBox
+                android:background="@drawable/buttonshape_normal"
+                android:singleLine="false"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="Muški"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/chkMusko_racun"
+                android:textColor="#000000"
+                />
     </LinearLayout>
-    <TextView
-            android:layout_marginTop="3dp"
-            android:textColor="#000000"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/password_confirm"
-            android:id="@+id/txtViewPassword_racun"
-            android:layout_gravity="center"/>
-
-    <EditText
-            android:background="@drawable/edittextshape"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="3dp"
-
-            android:layout_gravity="center"
-            android:inputType="text"
-            android:ems="10"
-            android:id="@+id/editTextEmail_racun"
-            android:textCursorDrawable="@null"
-            android:textColor="#000000"/>
     <Button
-            android:id="@+id/btnLoginConfirm"
-            android:text="@string/app_login"
+            android:id="@+id/btnRegisterConfirm"
+            android:text="@string/register"
             android:textColor="#000000"
             android:textSize="20sp"
             android:layout_width="150dp"
@@ -189,6 +186,6 @@
             android:shadowDy="0"
             android:shadowRadius="5"
             android:layout_gravity="center"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="10dp"
             />
 </LinearLayout>
